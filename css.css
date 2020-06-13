@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* 登录注册 */
+.top{
+    height: 45px;
+    width: 100%;
+    /* background-color: rgb(40, 40, 40); */
+    margin: 0 auto;
+    background: rgb(40, 40, 40) url(img/tell.png) 80% 11px no-repeat;
+
+
+}
+.topphone{
+    padding-top: 12px;
+    margin-left: 82%;
+    float: left;
+    color: white;
+    font-size: 17px;
+}
+.topr{
+    margin-top: 15px;
+    margin-right: 3%;
+    float: right;
+    font-size: 10px;
+    color: white;
+}
+
+/* 导航栏 */
+
+#activee a{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+#lii li a:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+/* 悠游古幽州 */
+.ban{
+    position: relative;
+    /* display: inline-block; */
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+    transform: scaleX(1.021);
+}
+.hh{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+
+}
+/* 悠游古幽州 表单 */
+#fm{
+    /* float: left; */
+    position: absolute;
+    display: inline-block;
+    height: 45px;
+    border: 2px solid rgba(65, 50, 56, 0.452);
+    border-radius: 5px;
+    top: 70%;
+    left: 30%;
+    
+}
+.search{
+    /* float: right; */
+    display: flex;
+    margin: 0 auto;
+}
+#position{
+    height: 40px;
+    width: 100px;
+    background: rgb(242, 243, 247) url(img/position.png) 10px center no-repeat;
+    float: left;
+}
+#position span{
+    padding-left: 30px;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(232, 65, 10);
+    text-align: center;
+    float: left;
+    /* line-height: 40px; */
+}
+.form-control{
+    width: 250px;
+    height: 40px;
+    border: none;
+    float: left;
+    padding: 0px;
+
+}
+
+/* 大中心 */
+.box{
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    /* height: 2950px; */
+}
+
+.t1{
+    margin-top: 20px;
+    text-align: center;
+}
+.t1pc,.line{
+    display: none;
+}
+.t1E{
+    margin-top: -10px;
+    font-size: 10px;
+}
+
+
+@media screen and (max-width:800px) {
+    .top{
+        display: none;
+    }
+    .banner{
+        transform: scaleX(1.05);
+    }
+    #tip{
+        /* top: 15px; */
+        /* margin-left: 20px; */
+        top: 10%;
+        margin-left: 8%;
+        position: absolute;
+
+    }
+    .hh{
+        font-size: 18px;
+    }
+    .p1{
+        display: none;
+    }
+    .p2{
+        display: none;
+    }
+    .p3{
+        display: block;
+        /* margin-top: 10px; */
+        color: white;
+    }
+    #fm{
+        top: 90px;
+        left: 50px;
+    }
+    .box{
+        width: 100%;
+        background-color: white;
+        /* height: 2950px; */
+    }
+    .b0{
+        /* float: left; */
+        margin-top: 35%;
+        position: relative;
+        /* margin-left: 5%; */
+        width: 90%;
+        height: 180px;
+        background:white url(img/carH.png) 8% center no-repeat;
+    }
+    .sban2,.b0p{
+        display: none;
+
+    }
+    .word{
+        height: 365px; 
+        width: 84%;
+        float: left;
+        position: relative;
+        padding-left: 30%;
+        padding-top: 10%;
+        color: rgb(120, 120, 120);
+    }
+    .b0h{
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: rgb(48, 96, 139);
+    }
+    .b0 button{
+        width: 15%;
+        height: 30px;
+        background-color: white;
+        border: 1px solid grey;
+        border-radius: 4px;
+        color: gray;
+        float: right;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 3%;
+    }
+    .t1{
+        display: none;
+    }
+    .fenjie{
+        width: 100%;
+        height: 20px;
+        background-color: rgb(245, 245, 245);
+    }
+    .t1pc{
+        display: block;
+        height: 50px;
+        width: 90%;
+        float: left;
+        line-height: 50px;
+        margin-left: 30px;
+        margin-top: -160px;
+        border-bottom: 1px solid rgb(238, 238, 238);
+
+    }
+    .line{
+        display: inline;
+        color: red;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .tupian{
+        height: 80px;
+        background:rgba(0,0,0,0.8);
+        color: white;
+        padding-top: 10px;
+        position:relative;
+        left: 0;
+        top: -70px;
+    }
+    .hot{
+        margin-top: -50px;
+        width: 100%;
+    }
+    .mon{
+        display: block;
+        float: right;
+        padding-right: 15px;
+    }
+    #right{
+        display: none;
+    }
+   
+    .mo{
+        /* margin: 30px auto; */
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .more{
+        background-color: white;
+        border: 1px solid rgb(195, 195, 195);
+        border-radius: 4px;
+        width: 120px;
+        height: 30px;
+        color: rgb(144, 144, 144);
+    }
+    #linian{
+        display: none;
+    }
+    #tupian2{
+        display: block;
+    }
+    #pinzhi{
+        display: none;
+    }
+    .youshi2{
+        margin-top: 50px;
+    }
+    #dibu{
+        display: none;
+    }
+    #lian{
+        display: block;
+    }
+    .su{
+        display: inline;
+    }
+    .bo{
+        background-color: rgb(52, 50, 53);
+        /* height: 200px; */
+        text-align: center;
+        line-height: 50px;
+    }
+}
+@media screen and (min-width:801px){
+    .navbar{
+        background-color: rgb(225, 225, 225);
+    }
+    #tip{
+        /* top: 100px; */
+        top: 15%;
+        /* margin-left: 80px; */
+        margin-left: 10%;
+        position: absolute;
+    }
+    .p1{
+    display: block;
+    color: white;
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid  rgba(128, 128, 128, 0.582);
+    }
+    .p2{
+        color: white;
+        width: 300px;
+        height: 25px;
+        line-height: 25px;
+        border-bottom: 1px solid  rgba(128, 128, 128, 0.582);
+    }
+    .p3{
+        display: none;
+    }
+    .box{
+        width: 100%;
+        background-color: rgb(225, 225, 225);
+        /* height: 3500px; */
+    }
+    
+    .b0{
+        float: left;
+        /* margin-top: 30px;
+        margin-left: 15px; */
+        margin-top: 2%;
+        margin-left: 5%;
+        width: 90%;
+        height: 365px;
+        background: rgb(20, 49, 109) url(img/car.png) 97% 78px no-repeat;
+
+        
+    }
+    .sban2{
+        /* width: 935px;*/
+        height: 365px; 
+        width: 85%;
+        float: left;
+        position: relative;
+        
+    }
+    .word{
+        float: left;
+        position: absolute;
+        color: white;
+        margin-top: 2%;
+        margin-left: 50%;
+    }
+    .b0h{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .b0p{
+        float: right;
+        color: white;
+        width: 95px;
+        height: 20px;
+        font-size: 16px;
+        margin-top: 180px;
+        display: flex;
+        margin-left: 76%;
+        position: absolute;
+    }
+    .b0 button{
+        width: 8%;
+        height: 30px;
+        background-color: rgb(20, 49, 109);
+        border: 1px solid white;
+        border-radius: 4px;
+        color: white;
+        float: right;
+        position: absolute;
+        margin-top: 225px;
+        margin-left: 3%;
+    }
+    .tupian{
+        height: 80px;
+        background:black;
+        color: white;
+        padding-top: 10px;
+        position:relative;
+        left: 0;
+        top: 0px;
+    }
+    
+    .tu{
+        height: 70px;
+        position:relative; 
+        background:rgba(0,0,0,0.5);
+        left: 0;
+        top: -70px;
+        padding-top: 10px;
+        color: white;
+    }
+    #shiming{
+        background: rgb(225, 225, 225) url(img/back.png) -60px -200px no-repeat;
+    }
+    .hot{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .more{
+        display: none;
+    }
+    #tupian2{
+        display: none;
+        height: 170px;
+    }
+    #lian{
+        display: none;
+    }
+    #youshi{
+        display: none;
+
+    }
+    #pin{
+        height: 210px;
+        background: url(img/rorate.png) center 20px no-repeat;
+    }
+    .su{
+        display: none;
+    }
+    .su20{
+        display: block;
+    }
+    .fen{
+        background-color: rgb(51, 51, 51);
+        height: 1px;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1000px){
+    #right{
+        display: none;
+    }
+   
+    .word{
+        display: none;
+    }
+    .mo{
+        /* margin: 30px auto; */
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .more{
+        background-color: white;
+        border: 1px solid rgb(195, 195, 195);
+        border-radius: 4px;
+        width: 120px;
+        height: 30px;
+        color: rgb(144, 144, 144);
+    }
+    .mon{
+        display: block;
+        float: right;
+        padding-right: 15px;
+    }
+    #linian{
+        display: none;
+    } 
+    #tupian2{
+        display: none;
+    }
+    #pinzhi{
+        display: none;
+    } 
+    #youshi{
+        display: block;
+
+    }
+    .youshi2{
+        margin-top: 50px;
+    }
+    #dibu{
+        display: none;
+    }
+    #lian{
+        display: block;
+    }
+    .su{
+        display: inline;
+    }
+    .bo{
+        background-color: rgb(52, 50, 53);
+        /* height: 200px; */
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+    }
+    .fen{
+        display: none;
+    }
+    
+}
+
